@@ -586,15 +586,68 @@ input {
 }
 
 @media screen and (max-width: 992px) {
+  .skills__container{
+    display: block;
+  }
 }
 
 /* for medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
+
 }
 
 @media screen and (max-width: 576px) {
+  .home__img{
+    display: none;
+  }
+  .home__name{
+    /* text-align: center; */
+    width: 100%;
+    line-height: normal;
+  }
+  .resume__container{
+    padding: 0;
+  }
+
+  .contact__container{
+    display: block;
+  }
+  .contact__socials{
+    display: flex;
+    gap: 2em;
+  }
+  .contact__form{
+    margin-top: 2rem;
+  }
+  .home__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
 }
 
 /* for small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
+  .nav__list{
+    column-gap: 1.6em;
+  }
+  .resume__container{
+    display: block;
+  }
+  .skills__container{
+    display: block;
+  }
+  .project__img{
+    display: none;
+  }
+  .project__item{
+    display: block;
+  }
+  .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
 }
