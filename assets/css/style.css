@@ -625,10 +625,6 @@ input {
     justify-content: start;
     align-items: start;
   }
-}
-
-/* for small devices */
-@media screen and (max-width: 380px) {
   .nav__list{
     column-gap: 1.6em;
   }
@@ -649,5 +645,10 @@ input {
     flex-wrap: wrap;
     gap: 1em;
   }
+}
+
+/* for small devices */
+@media screen and (max-width: 380px) {
+ 
   
 }
